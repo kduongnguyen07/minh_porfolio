@@ -3,12 +3,12 @@ import { KanbanSquare, GitPullRequest, ArrowRight, Server, Play, RefreshCw, GitB
 
 export default function KanbanBoard() {
   const [tasks, setTasks] = useState([
-    { id: 1, title: 'Thiết kế cấu trúc cây thư mục workspace', status: 'done', priority: 'High', assignee: 'Khánh' },
-    { id: 2, title: 'Lọc tài liệu quy hoạch động qua Google Search', status: 'done', priority: 'Medium', assignee: 'Khánh' },
-    { id: 3, title: 'Tối ưu hóa Dijkstra C++ qua Prompt Engineering', status: 'review', priority: 'High', assignee: 'Khánh' },
-    { id: 4, title: 'Tích hợp Git Flow & Bảng Kanban GitHub', status: 'in-progress', priority: 'High', assignee: 'Khánh' },
-    { id: 5, title: 'Phát triển React UI Premium & hiệu ứng Canvas', status: 'in-progress', priority: 'Medium', assignee: 'Khánh' },
-    { id: 6, title: 'Đánh giá Đạo đức AI & Triết lý dữ liệu học tập', status: 'todo', priority: 'Low', assignee: 'Khánh' }
+    { id: 1, title: 'Thiết kế cấu trúc cây thư mục workspace', status: 'done', priority: 'High', assignee: 'Minh' },
+    { id: 2, title: 'Lọc tài liệu quy hoạch động qua Google Search', status: 'done', priority: 'Medium', assignee: 'Minh' },
+    { id: 3, title: 'Tối ưu hóa Dijkstra C++ qua Prompt Engineering', status: 'review', priority: 'High', assignee: 'Minh' },
+    { id: 4, title: 'Tích hợp Git Flow & Bảng Kanban GitHub', status: 'in-progress', priority: 'High', assignee: 'Minh' },
+    { id: 5, title: 'Phát triển React UI Premium & hiệu ứng Canvas', status: 'in-progress', priority: 'Medium', assignee: 'Minh' },
+    { id: 6, title: 'Đánh giá Đạo đức AI & Triết lý dữ liệu học tập', status: 'todo', priority: 'Low', assignee: 'Minh' }
   ]);
 
   const [deploymentLog, setDeploymentLog] = useState([]);

@@ -45,7 +45,7 @@ const mockFileSystem = {
             '03_portfolio': {
               type: 'dir',
               children: {
-                'index.html': { type: 'file', content: '<!-- Trang cá nhân chính của Khánh -->\n<div id="root"></div>' },
+                'index.html': { type: 'file', content: '<!-- Trang cá nhân chính của Minh -->\n<div id="root"></div>' },
                 'config.json': { type: 'file', content: '{\n  "theme": "dark",\n  "framework": "React",\n  "mssv": "25020271"\n}' }
               }
             }
@@ -181,7 +181,7 @@ export default function TerminalVisualizer() {
     const command = parts[0].toLowerCase();
     const arg = parts.slice(1).join(' ');
 
-    const newHistory = [...terminalHistory, { text: `khanh@uet-portfolio:${getFullPathString(currentPath)}$ ${trimmed}`, type: 'command' }];
+    const newHistory = [...terminalHistory, { text: `minh@uet-portfolio:${getFullPathString(currentPath)}$ ${trimmed}`, type: 'command' }];
 
     switch (command) {
       case 'help':
@@ -466,7 +466,7 @@ export default function TerminalVisualizer() {
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                 <Terminal size={14} style={{ color: '#818cf8' }} />
                 <span style={{ fontFamily: 'monospace', fontSize: '0.8rem', color: '#cbd5e1' }}>
-                  khanh@uet-portfolio: {getFullPathString(currentPath)}
+                  minh@uet-portfolio: {getFullPathString(currentPath)}
                 </span>
               </div>
               
